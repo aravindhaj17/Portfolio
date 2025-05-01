@@ -7,10 +7,20 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependency directories
 node_modules
+
+# Build output
 dist
 dist-ssr
+
+# Local environment files
 *.local
+
+# Allow image uploads in public/images
+!public/
+!public/images/
+public/*  # Ignore other subfolders in public if needed, but not images
 
 # Editor directories and files
 .vscode/*
